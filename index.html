@@ -7,6 +7,23 @@
   <title>Test Accordéon</title>
   <link rel="stylesheet" href="/src/css/components/accordeon.css">
   <script type="module" src="/src/js/script.js"></script>
+  <style>
+    details > div {
+      padding-left: 130px;
+    }
+    details {
+    position: relative;
+    }
+    details[open] {
+      position: relative;
+      left: 10px;
+    } 
+    details > summary {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  </style>
 </head>
 
 <body>
